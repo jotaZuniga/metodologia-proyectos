@@ -1,9 +1,14 @@
 class ClaseA {
   foo;
   bar;
+  lorem;
 
   setFoo(val) {
     this.foo = val;
+  }
+
+  setLorem(val) {
+    this.lorem = val;
   }
 
   setBar(val) {
@@ -16,5 +21,9 @@ class ClaseA {
 
   get bar() {
     return this.bar
+  }
+
+  get lorem() {
+    return this.lorem;
   }
 }
